@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+}
+.wrapper>img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+}
+.some-text {
+    text-align: center;
+    color: blueviolet;
+    appearance: none;
+}
+.wrapper:hover>img{
+opacity: 25%;
+}
+.wrapper>p{
+    display: none;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+.wrapper:hover>p{
+    display: block;
+}
